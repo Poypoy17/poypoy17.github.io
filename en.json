@@ -1,0 +1,21 @@
+{
+    "about-me-title": "About Me",
+    "about-me-content": "A brief description of yourself, your academic background, your skills, and your interests.",
+    "projects-title": "Projects",
+    "project1-title": "Project 1",
+    "project1-content": "Description of project 1.",
+    "project1-link": "View Project",
+    "project2-title": "Project 2",
+    "project2-content": "Description of project 2.",
+    "project2-link": "View Project",
+    "skills-title": "Skills",
+    "skill1": "Skill 1",
+    "skill2": "Skill 2",
+    "experience-title": "Experience",
+    "experience-content": "Description of your professional experiences or internships.",
+    "contact-title": "Contact",
+    "label-name": "Name:",
+    "label-email": "Email:",
+    "label-message": "Message:",
+    "submit-button": "Send"
+}

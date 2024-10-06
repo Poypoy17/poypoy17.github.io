@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="//cdn.everything.io/kickstart/3.x/css/kickstart.min.css">
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <script type="text/javascript" src="//cdn.everything.io/kickstart/3.x/js/kickstart.min.js"></script>
+    <div class="tab">
+        <button class="tablinks" onclick="openTab(event, 'about-me')">À propos de moi</button>
+        <button class="tablinks" onclick="openTab(event, 'projects')">Projets</button>
+        <button class="tablinks" onclick="openTab(event, 'skills')">Compétences</button>
+        <button class="tablinks" onclick="openTab(event, 'experience')">Expérience</button>
+        <button class="tablinks" onclick="openTab(event, 'contact')">Contact</button>
+    </div>
+
+    <div id="about-me" class="tabcontent">
+        <h2 id="about-me-title">À propos de moi</h2>
+        <p id="about-me-content">Une brève description de vous-même, de votre parcours académique, de vos compétences et de vos intérêts.</p>
+    </div>
+
+    <div id="projects" class="tabcontent">
+        <h2 id="projects-title">Projets</h2>
+        <ul>
+            <li class="project-item">
+                <img id="project1-image" src="img/4-puissance.jpg" alt="Image du projet 1">
+                <div class="project-details">
+                    <h3 id="project1-title">Projet 1</h3>
+                    <p id="project1-content">Description du projet 1.</p>
+                    <a id="project1-link" href="https://etulab.univ-amu.fr/p21220442/4-puissance">Voir le projet</a>
+                </div>
+            </li>
+            <li class="project-item">
+                <img id="project2-image" src="img/tank-a-turret.jpg" alt="Image du projet 2">
+                <div class="project-details">
+                    <h3 id="project2-title">Projet 2</h3>
+                    <p id="project2-content">Description du projet 2.</p>
+                    <a id="project2-link" href="lien_vers_projet_2">Voir le projet</a>
+                </div>
+            </li>
+        </ul>
+    </div>
+
+    <div id="skills" class="tabcontent">
+        <h2 id="skills-title">Compétences</h2>
+        <ul id="skills-list">
+            <li id="skill1">Compétence 1</li>
+            <li id="skill2">Compétence 2</li>
+            <li id="skill3">Compétence 3</li>
+            <li id="skill4">Compétence 4</li>
+            <li id="skill5">Compétence 5</li>
+            <li id="skill6">Compétence 6</li>
+        </ul>
+    </div>
+
+    <div id="experience" class="tabcontent">
+        <h2 id="experience-title">Expérience</h2>
+        <p id="experience-content">Description de vos expériences professionnelles ou stages.</p>
+    </div>
+
+    <div id="contact" class="tabcontent">
+        <h2 id="contact-title">Contact</h2>
+        <form class="form">
+            <label for="name" id="label-name">Nom:</label>
+            <input type="text" id="name" name="name" class="input">
+            <label for="email" id="label-email">Email:</label>
+            <input type="email" id="email" name="email" class="input">
+            <label for="message" id="label-message">Message:</label>
+            <textarea id="message" name="message" class="textarea"></textarea>
+            <button type="submit" id="submit-button" class="button">Envoyer</button>
+        </form>
+    </div>
+</body>
+</html>
